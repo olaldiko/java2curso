@@ -1,8 +1,7 @@
-import java.util.Comparator;
 
 
 
-public class Hora implements Comparable<Hora>, Comparator<Hora>{
+public class Hora implements Comparable<Hora>{
 	int hh;
 	int mm;
 	public Hora(int hh, int mm){
@@ -41,26 +40,7 @@ public class Hora implements Comparable<Hora>, Comparator<Hora>{
 			}
 		}
 	}
-	@Override
-	public int compare(Hora o1, Hora o2) {
-		if(o1.hh == o2.hh){
-			if(o1.mm == o2.mm){
-				return 0;
-			}else{
-				if(o1.mm > o2.mm){
-					return 1;
-				}else{
-					return -1;
-				}
-			}
-		}else{
-			if(o1.hh > o2.hh){
-				return 1;
-			}else{
-				return -1;
-			}
-		}
-	}
+
 	public String toString(){
 		return hh+":"+mm;
 	}

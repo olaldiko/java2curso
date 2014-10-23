@@ -39,7 +39,7 @@ public class Principal implements ActionListener{
 		
 		bSalir = new JButton("Salir");
 		bSalir.addActionListener(this);
-		bSalir.setActionCommand("salir");
+		bSalir.setActionCommand("Salir");
 		psur.add(bSalir);
 		
 		return psur;
@@ -90,6 +90,7 @@ public class Principal implements ActionListener{
 			resultado.setText(String.valueOf(cant));
 			break;
 		case "Salir":
+			//ventana.dispose();
 			java.lang.Runtime.getRuntime().exit(0);
 			break;
 		}

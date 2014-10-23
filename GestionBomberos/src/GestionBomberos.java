@@ -120,6 +120,7 @@ public class GestionBomberos {
 			}
 		}while(aukera!= 0);
 	}
+
 	public static void main(String[] args) {
 		GestionBomberos gest = new GestionBomberos();
 		gest.menuPrincipal();
