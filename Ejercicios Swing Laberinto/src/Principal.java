@@ -8,6 +8,7 @@ import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -18,7 +19,7 @@ import javax.swing.JSplitPane;
 import javax.swing.plaf.basic.BasicArrowButton;
 
 
-public class Principal extends JFrame implements ActionListener {
+public class Principal extends JFrame implements ActionListener , KeyListener{
 	private static final long serialVersionUID = 8390849717731066438L;
 	final int HSIZE = 7;
 	final int VSIZE = 9;
@@ -221,6 +222,20 @@ public class Principal extends JFrame implements ActionListener {
 			JOptionPane.showMessageDialog(this, "Felicidades! Has ganado!",	"Fin del juego", JOptionPane.INFORMATION_MESSAGE);
 			this.dispose();
 		}
+		
+	}
+	@Override
+	public void keyTyped(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void keyPressed(KeyEvent e) {
+		
+	}
+	@Override
+	public void keyReleased(KeyEvent e) {
+		// TODO Auto-generated method stub
 		
 	}
 
