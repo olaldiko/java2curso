@@ -1,0 +1,29 @@
+Euro$1.0000
+US DÛlar$1.5029  
+Italia - Lira$1.0000  
+Alemania - Marco$1.0000  
+Franco suizo$1.5095  
+Francia - Franco$1.0000  
+Yen japonÈs$132.2401  
+MÈxico - Peso$19.3226  
+DÛlar de Hong Kong$11.6504  
+Libra esterlina$0.9023  
+Renmimbi Yuan chino$10.2447  
+Rand sur-africano$11.1162  
+DÛlar canadiense$1.5820  
+DÛlar australiano$1.6225  
+Won sur-coreano$1730.1038  
+DÛlar neozelandÈs$2.0619  
+Corona noruega$8.4102  
+Holanda - FlorÌn$1.0000  
+Corona islandÈs$183.7222  
+Libra libanesa$2237.1365  
+Ringgit de Malasia$5.0620  
+Lira turca$1000000.0000  
+Polonia - Zloty$4.0940  
+Portugal - Escudo$1.0000  
+Peso filipino$70.1656  
+Corona sueca$10.3292  
+Baht tailandÈs$49.7810  
+Corona eslovaca$1.0000  
+Dinar sudanÈs$343.5246 
